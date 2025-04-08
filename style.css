@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url(images/luwangp.png);
+    background-size: cover;
+  }
+  
+  header {
+    background: #1a1a1a;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  header h1 {
+    font-family: "Fleur De Leah", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+ .image {
+    position: relative;
+    border: 0;
+ }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  nav a:hover {
+    color: green;
+    text-decoration: underline;
+    transition: 1s ease-out;
+  }
+  
+  section {
+    padding: 2rem;
+  }
+  .logo {
+    position: absolute;
+  }
+  .logo img {
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 150px;
+    width: 200px;
+  }
+  
+  section img {
+    max-width: 100%;
+    height: 256px;
+    border-radius: 10px;
+    width: 256px;
+    box-shadow: 0 0 20px rgb(131, 136, 136);
+  }
+
+  section img:hover {
+    scale: 1.01;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgb(152, 255, 255);
+    transition: 1s linear;
+  }
+
+  .container {
+    display: flex;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 0.7rem 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #222;
+    color: white;
+  }
+  h2 {
+    justify-content: center;
+    text-align: center;
+    color: aqua;
+  }
+  p {
+    padding-right: 50px;
+    color: #c83cff;
+  }
+  span {
+    color: #222;
+  }
